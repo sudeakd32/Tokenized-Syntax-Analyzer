@@ -2,8 +2,6 @@ import java.io.*;
 import java.util.*;
 import java.util.regex.Pattern;
 
-//Sudenur Akdoğan 23050111017
-
 enum TokenType{
     type, identifier, expression, condition, punctuation, returnStatement
 }
@@ -69,7 +67,7 @@ public class SyntaxAnalyzer {
 
     }
     public static void readOutputFile() {
-        String fileName = "C:\\Users\\sude\\IdeaProjects\\206Hw1\\src\\output.txt";
+        String fileName = "output.txt";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
@@ -85,7 +83,7 @@ public class SyntaxAnalyzer {
     }
     public static String readInputFile(){
 
-        String fileName = "C:\\Users\\sude\\IdeaProjects\\206Hw1\\src\\input.txt";
+        String fileName = "input.txt";
         String input = "";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
