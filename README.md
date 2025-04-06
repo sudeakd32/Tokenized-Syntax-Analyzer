@@ -1,6 +1,6 @@
 # Tokenized-Syntax-Analyzer
 
-This project is a **basic Java Syntax Analyzer** designed to read C-style Java-like code from an input file, detect syntax errors, and output a cleaned and analyzed version of the code along with descriptive error messages.
+This project is a **basic Java Syntax Analyzer** designed to read Java code from an input file, detect syntax errors, and output a cleaned and analyzed version of the code along with descriptive error messages.
 
 ## 🔍 What Does It Do?
 
